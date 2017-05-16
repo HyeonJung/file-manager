@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/delete"
+        android:title="삭제"/>
+    <item android:id="@+id/move"
+        android:title="이동"/>
+    <item android:id="@+id/copy"
+        android:title="복사"/>
+    <item android:id="@+id/rename"
+        android:title="이름 바꾸기"/>
+    <item android:id="@+id/info"
+        android:title="세부 정보"/>
+</menu>

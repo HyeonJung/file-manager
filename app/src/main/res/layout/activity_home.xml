@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.yun.filesss.Home">
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:src="@drawable/android"
+        android:id="@+id/fakebutton"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="170dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/line"
+        android:layout_marginTop="25dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:src="@drawable/title"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="70dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btmemory"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="250dp"
+        android:alpha="0.0"/>
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menuicon"/>
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/setting"
+        android:id="@+id/btsettings"
+        android:onClick="onClick" />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btmusicsd"
+        android:background="@drawable/musicsd"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="130dp"
+        android:clickable="false"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btmoviesd"
+        android:background="@drawable/moviesd"
+        android:layout_marginLeft="236dp"
+        android:layout_marginTop="190dp"
+        android:clickable="false"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btdocumentsd"
+        android:background="@drawable/memorysd"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="190dp"
+        android:clickable="false"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btimagesd"
+        android:background="@drawable/imagesd"
+        android:layout_marginLeft="266dp"
+        android:layout_marginTop="290dp"
+        android:clickable="false"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btbookmarksd"
+        android:background="@drawable/bookmarksd"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="16dp"
+        android:clickable="false"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btdownloadsd"
+        android:background="@drawable/downloadsd"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="76dp"
+        android:clickable="false"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btlatelyfilesd"
+        android:background="@drawable/latelyfilesd"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="196dp"
+        android:clickable="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/test"
+        android:alpha="0.0"
+        android:layout_marginTop="510dp"
+        android:clickable="false"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btmusic"
+        android:background="@drawable/music"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="130dp"
+        android:clickable="true"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btmovie"
+        android:background="@drawable/movie"
+        android:layout_marginLeft="236dp"
+        android:layout_marginTop="190dp"
+        android:clickable="true"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btdocument"
+        android:background="@drawable/memory"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="190dp"
+        android:clickable="true"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btimage"
+        android:background="@drawable/image"
+        android:layout_marginLeft="266dp"
+        android:layout_marginTop="290dp"
+        android:clickable="true"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btbookmark"
+        android:background="@drawable/bookmark"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="16dp"
+        android:clickable="true"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btdownload"
+        android:background="@drawable/download"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="76dp"
+        android:clickable="true"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btlatelyfile"
+        android:background="@drawable/latelyfile"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="196dp"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="음악"
+        android:id="@+id/textView"
+        android:layout_marginLeft="166dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="내부 저장소"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="160dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="동영상"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="256dp"
+        android:layout_marginTop="160dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="일괄변경"
+        android:id="@+id/textView4"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="375dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="사진"
+        android:id="@+id/textView5"
+        android:layout_marginLeft="301dp"
+        android:layout_marginTop="375dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="다운로드"
+        android:id="@+id/textView6"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="465dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="최근파일"
+        android:id="@+id/textView7"
+        android:layout_marginLeft="211dp"
+        android:layout_marginTop="465dp"/>
+
+
+</RelativeLayout>

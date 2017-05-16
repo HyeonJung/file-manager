@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yun.filesss.BatchChange">
+
+    <ListView
+        android:layout_width="170dp"
+        android:layout_height="450dp"
+        android:id="@+id/listView1" />
+    <ListView
+        android:layout_marginLeft="210dp"
+        android:layout_width="170dp"
+        android:layout_height="450dp"
+        android:id="@+id/listView2" />
+    <Button
+        android:layout_marginLeft="178dp"
+        android:layout_marginTop="180dp"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:background="@drawable/arrow"
+        android:id="@+id/addbt"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/renameicon"
+        android:id="@+id/change"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/listclearicon"
+        android:id="@+id/btclear"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="260dp"
+        android:background="@drawable/filepathicon"
+        android:id="@+id/btfilepath"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="452dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/listv1"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="452dp"
+        android:layout_marginLeft="187dp"
+        android:src="@drawable/listv1"/>
+
+    <ImageView
+        android:layout_width="174dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="415dp"
+        android:src="@drawable/listv2"/>
+
+    <ImageView
+        android:layout_width="174dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginLeft="210dp"
+        android:src="@drawable/listv2"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="213dp"
+        android:id="@+id/nofile"
+        android:src="@drawable/nofile"/>
+</RelativeLayout>

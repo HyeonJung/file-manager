@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/alertlistView"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:background="@drawable/buttonpath"
+        android:id="@+id/alertbutton"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="400dp" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:background="@drawable/buttoncancel"
+        android:id="@+id/alertbutton2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp"         />
+</RelativeLayout>

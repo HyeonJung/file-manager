@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/mList"
+            android:layout_width="fill_parent"
+            android:layout_height="490dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/btOk"
+                android:text="확인" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:id="@+id/btCancel"
+                android:text="취소" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

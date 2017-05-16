@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/wheretv"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="현재 위치 - "
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/mList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <Button
+            android:id="@+id/filemenu"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/filemenu" />
+
+
+
+        <ImageView
+            android:id="@+id/menuimage"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/btmenu"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnewdirectory"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="360dp"
+            android:alpha="0.0"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btfilemove"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="360dp"
+            android:alpha="0.0"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btfilecopy"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="360dp"
+            android:alpha="0.0"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btfilesdelete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="360dp"
+            android:alpha="0.0"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bottom">
+
+
+        <Button
+            android:id="@+id/fileok2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:alpha="0.0"
+            android:clickable="false"
+            android:text="확인" />
+
+        <Button
+            android:id="@+id/testbt"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+             android:layout_marginLeft="50dp"
+         android:alpha="0.0"
+        android:clickable="false"
+        android:text="확인"/>
+
+        <Button
+            android:id="@+id/btfilemove2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:alpha="0.0"
+            android:clickable="false"
+            android:text="파일 이동" />
+
+        <Button
+            android:id="@+id/btfilecopy2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:alpha="0.0"
+            android:clickable="false"
+            android:text="파일 복사" />
+
+        <Button
+            android:id="@+id/filecancle"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="200dp"
+            android:alpha="0.0"
+            android:clickable="false"
+            android:text="취소" />
+    </RelativeLayout>
+</LinearLayout>
